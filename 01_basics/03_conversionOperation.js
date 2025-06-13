@@ -23,3 +23,27 @@ let StringNumber = String(someNumber)
 console.log(StringNumber)
 
 console.log(typeof StringNumber)
+
+let value = 3
+let negValye = -value
+console.log(negValye)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+
+let str1 = "Hello"
+let str2 = " Maha"
+
+str3 = str1 + str2
+
+console.log(str3)
+
+console.log("2" + 2)
+
+console.log(+true)
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter)
