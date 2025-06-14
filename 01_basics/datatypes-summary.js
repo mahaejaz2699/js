@@ -30,3 +30,25 @@ const myfunction = function(){
 
 console.log(typeof id);
 
+// Stack(Primitive), heap(Non-Primitive)
+
+let myYoutubename = "Mahaejaz.com"
+
+let anothername = myYoutubename
+anothername = "harisejaz"
+
+let userone = {
+    email: "maha@gmail.com",
+    upi:"maha@gmail.com",
+}
+
+let usertwo = userone;
+usertwo.email = "mahaejaz1@gmail.com"
+
+console.log(anothername);
+
+console.log(myYoutubename);
+
+
+console.log(userone);
+console.log(usertwo);

@@ -7,3 +7,7 @@ accountCity = "Lahore"
 console.log(accountId);
 
 console.table([accountId,accountEmail,accountPassword,accountCity])
+
+/*
+This file is used to explain variables and const
+*/
