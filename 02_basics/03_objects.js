@@ -16,13 +16,27 @@ const Jsuser = {
     lastLoginDays: ["Monday","Saturday"]
 }
 
-console.log(Jsuser.email)
-console.log(Jsuser["email"])
-console.log(Jsuser["full name"])
-console.log(Jsuser[mySym])
+// console.log(Jsuser.email)
+// console.log(Jsuser["email"])
+// console.log(Jsuser["full name"])
+// console.log(Jsuser[mySym])
 
 Jsuser.email = "maha@chatgpt.com"
 console.log(Jsuser.email)
-Object.freeze(Jsuser)
+// Object.freeze(Jsuser)
 Jsuser.email = "maha@yahoo.com"
 console.log(Jsuser.email)
+
+Jsuser.greeting = function(){
+    console.log("Hello JS User");
+}
+
+console.log(Jsuser.greeting());
+console.log(Jsuser.greeting);
+
+Jsuser.greetingTwo = function(){
+    console.log(`Hello JS User,${this.name}`);
+}
+
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingTwo());
