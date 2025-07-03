@@ -44,6 +44,7 @@ if(true){
 console.log(addone(5))
 
 function addone(num){
+
     return num + 1
 }
 
@@ -51,3 +52,7 @@ function addone(num){
 const addTwo = function(num){        
     return num +2
 }
+
+const myArray = [2,4,6,8,10]
+
+// myArray.forEach(() => {})
