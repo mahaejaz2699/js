@@ -30,8 +30,16 @@ let val1;
 
 // val1 = undefined ?? 15
 
-val1 = null ?? 10 ?? 20
+// val1 = null ?? 10 ?? 20
 
 
 
-console.log(val1);
+// console.log(val1);
+
+
+//Terniary Operator
+
+// condtion ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 8-")
